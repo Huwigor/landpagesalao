@@ -1,0 +1,235 @@
+@media only screen and (min-width: 700px) and (max-width: 900px) {
+
+    /*HEADER*/
+
+    .header{
+        width: 100%;
+    }
+    .box-btn-icon{
+        border: none;
+        background-color: transparent;
+        font-family: 'font-nome';
+        font-size: 35px;
+        font-weight: bold;
+        position: relative;
+        top: 10px;
+    }
+    .box-options{
+        position: relative;
+        top: 45px;
+        margin-left: 10%;
+    }
+    .btn-options{
+        position: relative;
+        top: 35px;
+        font-weight: bold;
+        font-size: 20px;
+        font-family: 'font-txt';
+        border: none;
+        background-color: transparent;
+    }
+    .box-contato{
+        position: relative;
+        left: 0;
+
+        font-weight: bold;
+        height: 40px;
+        width: 20%;
+        top: 20px;
+    }
+    .btn-icon{
+        position: relative;
+       margin-left: 15px;
+    }
+    .img-icon{
+        height: 25px;
+    }
+    .box-tel-contato{
+        position: relative;
+        top: 5px;
+        left: 10px;
+       }
+       .img-contato{
+        height: 20px;
+       }
+       .box-tel-contato p {
+           width: 150px;
+           font-size: 17px;
+           font-family: 'font-txt';
+           margin-left: 10px;
+       }
+
+       /* OPTIONS */
+
+       .overlay{
+        position: absolute;
+        display: none;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        height: 650px;
+        z-index: 5;
+        background-color: rgb(000, 000, 000, 9 );
+      }
+      .msg-serviço{
+        color: red;
+        font-weight: bold;
+        font-size: 12px;
+        top: 9%;
+        left: 35%;
+      }
+      .btn-close{
+         float: right;
+         position: absolute; 
+         width: 50px;
+         height: 50px;
+         right: 15px;
+         top: 10px;
+         border: none; 
+         background-color: transparent;
+         z-index: 10;
+      }
+      .btn-close:focus{
+        outline: none;
+        border: none;
+      }
+      .conteudo-options{
+        position: absolute;
+        width: 90%;
+        height: 100%;
+        overflow: hidden;
+        top: 0;
+       left: 5%;
+      }
+      .mini-options{
+        position: relative;
+        width: 30%;
+        height: 40%;
+        top: 23%;
+        z-index: 8;
+      
+        box-sizing: border-box;
+        border-radius: 10px;
+      }
+      .tittle-options{
+        position: absolute;
+        padding: 5px;
+        top: -50px;
+        width: 100%;
+        text-align: center;
+        z-index: 8;
+        background-color: rgb(255, 255, 255, 0.8 );
+        color: gray;
+        font-size: 15px;
+        font-weight: bold;
+        border-radius: 5px;
+      }
+      .img-options{
+        position: absolute;
+       width: 100%;
+       height: 100%;
+       top: 0;
+       left: 0;
+       z-index: 7;
+       border-radius: 5px;
+      }
+      .box-valor-options{
+        position: absolute;
+        bottom: -120px;
+        padding: 10px;
+        width: 100%;
+        height: 40%;
+        z-index: 8;
+        background-color: rgb(255, 255, 255, 0.8 );
+        color: black;
+        font-size: 18px;
+        border-radius: 5px ;
+      }
+      .span-options{
+        font-size: 25px;
+      }
+      .img-btn-options{
+        height: 45px;
+      }
+      .img-whats{
+        height: 40px;
+      }
+      .valor-options{
+        width: 70%;
+        text-align: center;
+        position: relative;
+        top: 25px;
+        font-weight: bold;
+      }
+      .btn-valor-options{
+        border: none;
+        width: 30%;
+        background-color: transparent;
+      }
+       #next{
+        z-index: 10;
+        position: relative;
+        top: 39%;
+        left: 50%;
+        margin-left: 10px;
+        border: none;
+        background-color: transparent;
+        color: white;
+      }
+      #prev{
+        z-index: 10;
+        position: relative;
+        top:39%;
+        left: 31%;
+        border: none;
+        background-color: transparent;
+        color: white;
+      }
+      #box-search{
+        left: 20%;
+        padding: 10px;
+        position: relative;
+        z-index: 10;
+        bottom: 50px;
+        width: 60%;
+        color: aliceblue ;
+       }
+       #pesquisa{
+         width: 300px;
+         height: 30px;
+       }
+       .btn-search{
+         border: none;
+         background-color: transparent;
+       }
+
+
+       /* FOOTER */
+
+
+       #footer{
+        margin-top: 150px;
+        width: 100%;
+        height: 300px;
+        padding: 30px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+       .box-logo-footer{
+        position: relative;
+        left: 15%;
+        width: 350px;
+        top: 20%;
+      }
+       .box-icon-footer{
+        position: relative;
+        bottom: 10%;
+        width: 300px;
+        left: 55%;
+    }
+
+
+
+}

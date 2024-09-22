@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/slide-img/slide.css">
+    <link rel="stylesheet" href="css/header/header.css">
+    <link rel="stylesheet" href="css/whatsapp-btn/whatsapp-btn.css">
+    <link rel="stylesheet" href="css/options/options.css">
+    <link rel="stylesheet" href="css/footer/footer.css">
+    <link rel="stylesheet" href="css/mq/desktop/1700x1920px.css">
+    <link rel="stylesheet" href="css/mq/desktop/1500-1700px.css">
+    <link rel="stylesheet" href="css/mq/desktop/1299-1499px.css">
+    <link rel="stylesheet" href="css/mq/desktop/1100-1300px.css">
+    <link rel="stylesheet" href="css/mq/desktop/900-1100px.css">
+    <link rel="stylesheet" href="css/mq/tablet/500-599px.css">
+    <link rel="stylesheet" href="css/mq/tablet/600-700px.css">
+    <link rel="stylesheet" href="css/mq/tablet/700-900px.css">
+    <link rel="stylesheet" href="css/mq/desktop/1920+.css">
+    <title>Eliane Coifeur</title>
+</head>
+<body>
+
+  <script>
+
+    const minWidth = 500; 
+
+    if (window.innerWidth < minWidth) {
+        window.location.href = "index-mobile.html";
+    } 
+
+  </script>
+
+    <a href="https://wa.me/5522981370167" target="_blank" class="whatsapp-button">
+        <img src="icons/icons8-whatsapp-32.png" alt="WhatsApp" height="40px">
+    </a>
+
+ <div class="d-flex header">
+    <div>
+        <button class="box-btn-icon" onclick="window.location.href='index.html'">
+            <img src="icons/7fd34c042d6fae41b707127970917dcc.png" alt="" height="90px" width="130px" style="position: relative; bottom: 5px;">
+            <span style="position: relative; right: 35px;">Eliane Coifeur</span>
+        </button>
+    </div>
+    <div class="box-options">
+        <button class="btn-options">
+        <img src="icons/menu.png" alt="" height="40px">
+          Serviços
+        </button>
+    </div>
+    <div class="d-flex box-contato">
+       <div class="d-flex box-icons-contato">
+        <button class="btn-contato btn-icon"><img src="icons/icons8-instagram-32.png" alt="" class="img-icon"></button>
+        <button class="btn-contato btn-icon" onclick="window.open('https://wa.me/5522981370167', 'blank')"><img src="icons/icons8-whatsapp-32.png" alt="" class="img-icon" ></button>
+       </div>
+       <div class="box-tel-contato">
+        <p><img src="icons/telephone-call.png" alt="" height="25px" style="margin-right: 10px;" class="img-contato">(22) 98137-0167</p>
+       </div>
+    </div>
+ </div>
+
+
+
+
+
+ <div class="box-slide">
+     
+  <swiper-container class="mySwiper" watch-slides-progress="true" slides-per-view="3" loop="true" autoplay="true">
+    <swiper-slide><img class="img-slide" src="imagens/options/luzes.jpeg" alt="" height="500px" width="100%"></swiper-slide>
+    <swiper-slide><img class="img-slide" src="imagens/options/botox.jpeg" alt="" height="500px" width="100%"></swiper-slide>
+    <swiper-slide><img class="img-slide" src="imagens/options/unha.jpeg" alt="" height="500px" width="100%"></swiper-slide>
+    <swiper-slide><img class="img-slide" src="imagens/options/corte-cabelo.jpg" alt="" height="500px" width="100%"></swiper-slide>
+    <swiper-slide><img class="img-slide" src="imagens/options/sombrancelha-comum.jpg" alt="" height="500px" width="100%"></swiper-slide>
+    <swiper-slide><img class="img-slide" src="imagens/options/unha-acrigel.jpeg" alt="" height="500px" width="100%"></swiper-slide>
+    <swiper-slide><img class="img-slide" src="imagens/options/hidratação.jpg" alt="" height="500px" width="100%"></swiper-slide>
+    <swiper-slide><img class="img-slide" src="imagens/options/depilação-axila.jpg" alt="" height="500px" width="100%"></swiper-slide>
+  </swiper-container>
+ 
+      <div class="overlay">
+        <button class="btn-close"><img src="icons/exit.png" alt="" height="50px"></button>
+
+        <p class="msg-serviço">Serviço não encontrado!</p>
+    
+        <div class="input-container text-center" id="box-search">
+           <input type="text" id="pesquisa" placeholder="Busque pelo serviço..">
+           <button class="btn-search">
+             <img src="icons/search-alt-2-svgrepo-com.svg" alt="" height="30px">
+           </button>
+        </div>
+    
+        <div class="conteudo-options d-flex">
+    
+          <div class="mini-options mx-auto option1">
+            <p class="tittle-options">SOMBRANCELHA COMUM</p>
+          <br>
+            <img class="img-options" src="imagens/options/sombrancelha-comum.jpg" alt="">
+          <br>
+              <div class="box-valor-options d-flex">
+                  <p class="valor-options">R$ <span class="span-options" style="color: green;">25.00</span></p>
+                  <button class="btn-valor-options" onclick="window.open('https://wa.me/5522981370167', 'blank')"><img class="img-whats" src="icons/icons8-whatsapp-32.png" alt=""></button>
+              </div>
+          </div>
+
+        <div class="mini-options mx-auto option2">
+            <p class="tittle-options">SOMBRANCELHA RENA</p>
+          <br>
+            <img class="img-options" src="imagens/options/sombrancelha.jpg" alt="">
+          <br>
+              <div class="box-valor-options d-flex">
+                  <p class="valor-options">R$ <span class="span-options" style="color: green;">35.00</span></p>
+                  <button class="btn-valor-options" onclick="window.open('https://wa.me/5522981370167', 'blank')"><img src="icons/icons8-whatsapp-32.png" alt="" class="img-whats"></button>
+              </div>
+          </div>
+
+        <div class="mini-options mx-auto option3">
+            <p class="tittle-options">UNHA PÉ E MÃO</p>
+          <br>
+            <img class="img-options" src="imagens/options/unha.jpeg" alt="">
+          <br>
+              <div class="box-valor-options d-flex">
+                  <p class="valor-options">R$ <span class="span-options" style="color: green; ">35.00</span></p>
+                  <button class="btn-valor-options" onclick="window.open('https://wa.me/5522981370167', 'blank')"><img src="icons/icons8-whatsapp-32.png" alt="" class="img-whats"></button>
+              </div>
+          </div>
+
+        <div class="mini-options mx-auto option4">
+          <p class="tittle-options">CAUTERIZAÇÃO</p>
+        <br>
+          <img class="img-options" src="imagens/options/cauterização.jpg" alt="">
+        <br>
+            <div class="box-valor-options d-flex">
+                <p class="valor-options">R$ <span class="span-options" style="color: green; ">60.00</span></p>
+                <button class="btn-valor-options" onclick="window.open('https://wa.me/5522981370167', 'blank')"><img src="icons/icons8-whatsapp-32.png" alt="" class="img-whats"></button>
+            </div>
+        </div>
+
+    <div class="mini-options mx-auto option5">
+        <p class="tittle-options">HIDRATAÇÃO CABELO</p>
+        <br>
+        <img class="img-options" src="imagens/options/hidratação.jpg" alt="">
+        <br>
+        <div class="box-valor-options d-flex">
+            <p class="valor-options">R$ <span class="span-options" style="color: green;">30.00</span></p>
+            <button class="btn-valor-options" onclick="window.open('https://wa.me/5522981370167', 'blank')"><img src="icons/icons8-whatsapp-32.png" alt="" class="img-whats"></button>
+        </div>
+    </div>
+
+    <div class="mini-options mx-auto option6">
+      <p class="tittle-options">DEPILAÇÃO BUÇO</p>
+      <br>
+      <img class="img-options" src="imagens/options/buço.png" alt="">
+      <br>
+      <div class="box-valor-options d-flex">
+          <p class="valor-options">R$ <span class="span-options" style="color: green; ">10.00</span></p>
+          <button class="btn-valor-options" onclick="window.open('https://wa.me/5522981370167', 'blank')"><img src="icons/icons8-whatsapp-32.png" alt="" class="img-whats"></button>
+      </div>
+  </div>
+
+  <div class="mini-options mx-auto option7">
+    <p class="tittle-options">DEPILAÇÃO ROSTO</p>
+    <br>
+    <img class="img-options" src="imagens/options/depilação-rosto.jpg" alt="">
+    <br>
+      <div class="box-valor-options d-flex">
+          <p class="valor-options">R$ <span class="span-options" style="color: green;">25.00</span></p>
+          <button class="btn-valor-options" onclick="window.open('https://wa.me/5522981370167', 'blank')"><img src="icons/icons8-whatsapp-32.png" alt="" class="img-whats"></button>
+      </div>
+</div>
+
+<div class="mini-options mx-auto option8">
+  <p class="tittle-options">DEPILAÇÃO AXILAS</p>
+  <br>
+  <img class="img-options" src="imagens/options/depilação-axila.jpg" alt="">
+  <br>
+  <div class="box-valor-options d-flex">
+      <p class="valor-options">R$ <span class="span-options" style="color: green;">25.00</span></p>
+      <button class="btn-valor-options" onclick="window.open('https://wa.me/5522981370167', 'blank')"><img src="icons/icons8-whatsapp-32.png" alt="" class="img-whats"></button>
+  </div>
+</div>
+
+<div class="mini-options mx-auto option9">
+  <p class="tittle-options">CORTE CABELO</p>
+  <br>
+  <img class="img-options" src="imagens/options/corte-cabelo.jpg" alt="">
+  <br>
+  <div class="box-valor-options d-flex">
+      <p class="valor-options">R$ <span class="span-options" style="color: green;">30.00</span></p>
+      <button class="btn-valor-options" onclick="window.open('https://wa.me/5522981370167', 'blank')"><img src="icons/icons8-whatsapp-32.png" alt="" class="img-whats"></button>
+  </div>
+</div>
+
+<div class="mini-options mx-auto option10">
+  <p class="tittle-options">ESCOVA CABELO</p>
+  <br>
+  <img class="img-options" src="imagens/options/escova-cabelo.jpg" alt="">
+  <br>
+  <div class="box-valor-options d-flex">
+      <p class="valor-options">R$ <span class="span-options" style="color: green;">25.00</span></p>
+      <button class="btn-valor-options" onclick="window.open('https://wa.me/5522981370167', 'blank')"><img src="icons/icons8-whatsapp-32.png" alt="" class="img-whats"></button>
+  </div>
+</div>
+
+<div class="mini-options mx-auto option11">
+  <p class="tittle-options">LUZES CABELO</p>
+  <br>
+  <img class="img-options" src="imagens/options/luzes.jpeg" alt="">
+  <br>
+  <div class="box-valor-options d-flex">
+      <p class="valor-options">R$ <span class="span-options" style="color: green;">130.00</span></p>
+      <button class="btn-valor-options" onclick="window.open('https://wa.me/5522981370167', 'blank')"><img src="icons/icons8-whatsapp-32.png" alt="" class="img-whats"></button>
+  </div>
+</div>
+
+<div class="mini-options mx-auto option12">
+  <p class="tittle-options">MECHAS CABELO</p>
+  <br>
+  <img class="img-options" src="imagens/options/mechas-cabelo.jpg" alt="">
+  <br>
+  <div class="box-valor-options d-flex">
+      <p class="valor-options">R$ <span class="span-options" style="color: green;">180.00</span></p>
+      <button class="btn-valor-options" onclick="window.open('https://wa.me/5522981370167', 'blank')"><img src="icons/icons8-whatsapp-32.png" alt="" class="img-whats"></button>
+  </div>
+</div>
+
+<div class="mini-options mx-auto option13">
+  <p class="tittle-options">BOTOX CABELO</p>
+  <br>
+  <img class="img-options" src="imagens/options/botox.jpeg" alt="">
+  <br>
+  <div class="box-valor-options d-flex">
+      <p class="valor-options">R$ <span class="span-options" style="color: green;">140.00</span></p>
+      <button class="btn-valor-options" onclick="window.open('https://wa.me/5522981370167', 'blank')"><img src="icons/icons8-whatsapp-32.png" alt="" class="img-whats"></button>
+  </div>
+</div>
+
+<div class="mini-options mx-auto option14">
+  <p class="tittle-options">PROGRESSIVA CABELO</p>
+  <br>
+  <img class="img-options" src="imagens/options/progressiva-cabelo.jpg" alt="">
+  <br>
+  <div class="box-valor-options d-flex">
+      <p class="valor-options">R$ <span class="span-options" style="color: green;">160.00</span></p>
+      <button class="btn-valor-options" onclick="window.open('https://wa.me/5522981370167', 'blank')"><img src="icons/icons8-whatsapp-32.png" alt="" class="img-whats"></button>
+  </div>
+</div>
+    
+
+    </div>
+
+    <div class="d-flex box-buttons">
+      <button id="prev"><img src="icons/back-svgrepo-white-com.svg" alt="" height="60px"></button>
+      <button id="next"><img src="icons/next-svgrepo-white-com.svg" alt="" height="60px"></button>
+    </div>
+
+</div>
+</div>
+
+
+
+
+<div id="footer">
+
+  <div class="d-flex box-logo-footer">
+      <img src="icons/7fd34c042d6fae41b707127970917dcc.png" alt="" height="90px" width="130px" style="position: relative; bottom: 5px;">
+      <p style="position: relative; top: 10px; right: 25px; font-weight: bold; font-size: 40px; font-family: 'font-nome';">Eliane Coiffeur</p>
+  </div>
+  <div class="d-flex box-icon-footer">
+      <button class="btn-icon-logo"><img src="icons/icons8-instagram-32.png" alt="" height="40px"></button>
+      <button class="btn-icon-logo" onclick="window.open('https://wa.me/5522981370167', 'blank')"><img src="icons/icons8-whatsapp-32.png" alt="" height="40px"></button>
+  </div>
+  <div class="box-contato-footer">
+      <p style="font-weight: bold; font-family: 'font-txt';">Atendemos em domicílio - (22) 98137-0167</p>
+  </div>
+ 
+</div>
+
+
+    
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="js/header/btn-options.js"></script>
+  <script src="js/options/options.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+.carousel-box-slide {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.carousel-imgs {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.carousel img{
+    width: 100%;
+    height: 100%;
+}
+
+.slides {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+.carousel-box-slide {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.carousel-imgs {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.carousel img{
+    width: 100%;
+    height: 100%;
+}
+
+.slides {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+.carousel-box-slide {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.carousel-imgs {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.carousel img{
+    width: 100%;
+    height: 100%;
+}
+
+.slides {
+    min-width: 100%;
+    box-sizing: border-box;
+}

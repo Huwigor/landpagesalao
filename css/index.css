@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'font-nome';
+    src: url('../fonts/GreyQo-Regular.ttf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'font-txt';
+  src: url('../fonts/DMSerifDisplay-Regular.ttf') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  user-select: none;
+  -webkit-user-select: none; 
+  -moz-user-select: none; 
+  -ms-user-select: none; 
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+.btn-icon{
+    border: none;
+    background-color: transparent;
+}

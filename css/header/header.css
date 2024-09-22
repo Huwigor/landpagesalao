@@ -1,0 +1,54 @@
+.header{
+    width: 100%;
+}
+.box-btn-icon{
+    border: none;
+    background-color: transparent;
+    font-family: 'font-nome';
+    font-size: 45px;
+    font-weight: bold;
+}
+.box-options{
+    position: relative;
+    top: 5px;
+    margin-left: 20%;
+}
+.btn-options{
+    position: relative;
+    top: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'font-txt';
+    border: none;
+    background-color: transparent;
+}
+.box-contato{
+    position: relative;
+    left: 15%;
+    font-weight: bold;
+    height: 40px;
+    width: 20%;
+    top: 20px;
+}
+.btn-icon{
+    position: relative;
+   margin-left: 15px;
+}
+.img-icon{
+    height: 40px;
+}
+.box-tel-contato{
+ position: relative;
+ top: 5px;
+ left: 10px;
+}
+.box-tel-contato p {
+    width: 250px;
+    font-size: 20px;
+    font-family: 'font-txt';
+    margin-left: 20px;
+}
+.btn-contato{
+    border: none;
+    background-color: transparent;
+}
